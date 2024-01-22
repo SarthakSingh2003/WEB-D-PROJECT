@@ -1,0 +1,89 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Top Frame Styles */
+#top-frame {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#top-frame img {
+  vertical-align: middle;
+}
+
+#top-frame h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#top-frame nav {
+  margin-top: 10px;
+}
+
+#top-frame a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#top-frame a:hover {
+  text-decoration: underline;
+}
+
+/* Middle Frame Styles */
+#middle-frame {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Section Styles */
+.section {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.section-description {
+  max-width: 60%;
+}
+
+.section h3 {
+  color: #333;
+}
+
+.section p {
+  color: #555;
+}
+
+.section-content.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Bottom Frame Styles */
+#bottom-frame {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}

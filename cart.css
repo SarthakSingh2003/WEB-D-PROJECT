@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#top-frame {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#top-frame img {
+    vertical-align: middle;
+}
+
+#top-frame h1 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#top-frame nav {
+    margin-top: 10px;
+}
+
+#top-frame a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#top-frame a:hover {
+    text-decoration: underline;
+}
+
+#middle-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cart {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.cart-item img {
+    margin-right: 15px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.cart-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cart-item p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#bottom-frame {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}

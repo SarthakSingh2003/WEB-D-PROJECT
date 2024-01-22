@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="catalogue.css">
+</head>
+<body>
+
+    <!-- Top Frame -->
+    <div id="top-frame">
+        <img src="your_logo.png" alt="College Logo" width="100" height="100">
+        <h1>STORE.IN</h1>
+        <nav>
+            <a href="web.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Registration</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </div>
+
+    <!-- Middle Frame (Catalogue Page) -->
+    <div id="middle-frame" class="flex-container">
+        <div class="catalogue">
+            <!-- Product 1 -->
+            <div class="product" onclick="addToCart('Product 1', 20.99)">
+                <img src="section1_photo.jpg" alt="Product 1" width="150" height="150">
+                <h3>Product 1</h3>
+                <p>Description of Product 1.</p>
+                <p>$20.99</p>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product" onclick="addToCart('Product 2', 25.49)">
+                <img src="section2_photo.jpg" alt="Product 2" width="150" height="150">
+                <h3>Product 2</h3>
+                <p>Description of Product 2.</p>
+                <p>$25.49</p>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product" onclick="addToCart('Product 3', 15.99)">
+                <img src="section4_photo.jpg" alt="Product 3" width="150" height="150">
+                <h3>Product 3</h3>
+                <p>Description of Product 3.</p>
+                <p>$15.99</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bottom Frame -->
+    <div id="bottom-frame">
+        <!-- Your bottom frame content goes here -->
+        <p>UNIQUE STORE PVT.LTD PRAYAGRAJ.</p>
+    </div>
+
+    <script src="catalogue.js"></script>
+</body>
+</html>
